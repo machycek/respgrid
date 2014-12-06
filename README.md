@@ -12,7 +12,7 @@ Simple grid for responsive websites
 <p>Respgrid uses same classes like everyother responsive framework do.</p>
 
 <h4>Container class</h4>
-<code><div class="container"><div&gt;</code> 
+<pre><div class="container"><div&gt;</pre> 
 <h4>This class tells the browser that container has specific width</h4>
 
 <ul>
@@ -22,27 +22,27 @@ Simple grid for responsive websites
 </ul>
 
 <h4>Row class</h4>
-<code>
+<pre>
 	&lt;div class="container">
 		&lt;div class="row">
 		&lt;/div&gt;
 	&lt;/div&gt;
-</code>
+</pre>
 <h4>has attribute 100% with</h4>
 
 <h4>Col classes</h4>
-<code>
+<pre>
 	&lt;div class="container">
 		&lt;div class="row">
 			&lt;div class="col-6">&lt;/div&gt;
 			&lt;div class="col-6">&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-</code>
+</pre>
 <h4>Col-6 tell the browser to be 50% width of row</h4>
 <br>
 <h4>You can also use there classes like</h4>
-<code>
+<pre>
 	&lt;div class="container">
 		&lt;div class="row">
 			&lt;div class="col-4">&lt;/div&gt;
@@ -50,7 +50,7 @@ Simple grid for responsive websites
 			&lt;div class="col-4">&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
-</code>
+</pre>
 <h4>Col-4 tell the browser to be 1/3(33.3%) width of browser</h4>
 <h4>There are classes from col-1 to col-12</h4>
 <ul>
