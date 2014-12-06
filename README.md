@@ -43,13 +43,9 @@ Simple grid for responsive websites
 <br>
 <h4>You can also use there classes like</h4>
 <pre>
-	&lt;div class="container"&gt;
-		&lt;div class="row"&gt;
-			&lt;div class="col-4">&lt;/div&gt;
-			&lt;div class="col-4">&lt;/div&gt;
-			&lt;div class="col-4">&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
+	<div class="container">
+		<div class="hello"></div>
+	</div>
 </pre>
 <h4>Col-4 tell the browser to be 1/3(33.3%) width of browser</h4>
 <h4>There are classes from col-1 to col-12</h4>
