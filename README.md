@@ -8,18 +8,60 @@ Simple grid for responsive websites
 <p>Don't you like those responsive frameworks which includes almost everything, but you have never used a tons of their classes?</p>
 <p>Me neither so I made this simple grid.</p>
 
-<h1>Width classes</h1>
+<h1>Classes</h1>
 <p>Respgrid uses same classes like everyother responsive framework do.</p>
 
-<h4>In the begin use 
-<code>&lt;div class="container"&gt;
-&lt;/div&gt;</code> 
-</h4>
+<h4>Container class</h4>
+<pre><div class="container"><div></pre> 
+<h4>This class tells the browser that container has specific width</h4>
 
-<code>
-&lt;div class="row"&gt;
-&lt;/div&gt;
-</code>
+<ul>
+	<li>1170px on large screens</li>
+	<li>992px on middle screens</li>
+	<li>Ff device is smaller than 768px then 100% with</li>
+</ul>
+
+<h4>Row class</h4>
+<pre>
+<div class="container">
+	<div class="row">
+	</div>
+</div>
+</pre>
+<h4>has attribute 100% with</h4>
+
+<h4>Col classes</h4>
+<pre>
+	<div class="container">
+		<div class="row">
+			<div class="col-6"></div>
+			<div class="col-6"></div>
+		</div>
+	</div>
+</pre>
+<h4>Col-6 tell the browser to be 50% width of row</h4>
+<br>
+<h4>You can also use there classes like</h4>
+<pre>
+	<div class="container">
+		<div class="row">
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+			<div class="col-4"></div>
+		</div>
+	</div>
+</pre>
+<h4>Col-4 tell the browser to be 1/3(33.3%) width of browser</h4>
+<h4>There are classes from col-1 to col-12</h4>
+<ul>
+	<li>.col-1 - 1/12 width</li>
+	<li>.col-2 - 2/12 width</li>
+	<li>.col-3 - 3/12 width</li>
+	<li>...</li>
+</ul>
+
+
+
 
 
 
