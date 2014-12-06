@@ -10,7 +10,7 @@ Simple grid for responsive websites
 
 <h1>Width classes</h1>
 <p>Respgrid uses same classes like everyother responsive framework do.</p>
-<h3>&lt;div class="row"&gt;</h3>
+<code>&lt;div class="row"&gt;</code>
 
 
 
