@@ -5,7 +5,7 @@ Simple grid for responsive websites
 
 <h1>Introduction</h1>
 <p>Respgrid is leightweight framework which helps you to build fully responsive website.</p>
-<p>Don't you like those responsive frameworks which includes almost everything, but you have never used a tons of their classes?</p>
+<p>Don't you like those responsive frameworks which includes almost everything, but you have never used most of their classes?</p>
 <p>Me neither so I made this simple grid.</p>
 
 <h1>Classes</h1>
@@ -39,7 +39,7 @@ Simple grid for responsive websites
 		&lt;/div&gt;
 	&lt;/div&gt;
 </pre>
-<strong>Col-6 tell the browser to be 50% width of row</strong>
+<strong>Col-6 tell the browser to be 6/12(50%) width</strong>
 <br>
 <strong>You can also use there classes like</strong>
 <pre>
@@ -51,7 +51,7 @@ Simple grid for responsive websites
 		&lt;/div&gt;
 	&lt;/div&gt;
 </pre>
-<strong>Col-4 tell the browser to be 1/3(33.3%) width of browser</strong>
+<strong>Col-4 tell the browser to be 1/3(33.3%) width</strong>
 <strong>There are classes from col-1 to col-12</strong>
 <ul>
 	<li>.col-1 - width: 1/12</li>
@@ -69,7 +69,7 @@ Simple grid for responsive websites
 		&lt;/div&gt;
 	&lt;/div&gt;
 </pre>
-<strong>offset-2 class tells the browser to set margin-left 2/12 of width</strong>
+<strong>offset-2 class tells the browser to set margin-left 2/12(16.6%) width</strong>
 <strong>Offsets and Col classes in every row couldn't be more that 12</strong>
 <strong>There are classes from col-1 to col-12</strong>
 <ul>
@@ -109,23 +109,23 @@ Simple grid for responsive websites
 
 
 <h4>Visible classes</h4>
-<strong>Visible only only on large devices</strong>
+<strong>Visible only on large devices</strong>
 <pre>
 	&lt;div class="visible-lg"&gt;&lt;/div&gt;
 </pre>
-<strong>Visible only only on medium devices</strong>
+<strong>Visible only on medium devices</strong>
 <pre>
 	&lt;div class="visible-md"&gt;&lt;/div&gt;
 </pre>
-<strong>Visible only only on small devices</strong>
+<strong>Visible only on small devices</strong>
 <pre>
 	&lt;div class="visible-sm"&gt;&lt;/div&gt;
 </pre>
-<strong>Show</strong>
+<strong>Show - shows element</strong>
 <pre>
 	&lt;div class="show"&gt;&lt;/div&gt;
 </pre>
-<strong>Hide</strong>
+<strong>Hide  - hides element</strong>
 <pre>
 	&lt;div class="hide"&gt;&lt;/div&gt;
 </pre>
