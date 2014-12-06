@@ -23,8 +23,8 @@ Simple grid for responsive websites
 
 <h4>Row class</h4>
 <pre>
-	&lt;div class="container">
-		&lt;div class="row">
+	&lt;div class="container"&gt;
+		&lt;div class="row"&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 </pre>
@@ -43,8 +43,8 @@ Simple grid for responsive websites
 <br>
 <h4>You can also use there classes like</h4>
 <pre>
-	&lt;div class="container">
-		&lt;div class="row">
+	&lt;div class="container"&gt;
+		&lt;div class="row"&gt;
 			&lt;div class="col-4">&lt;/div&gt;
 			&lt;div class="col-4">&lt;/div&gt;
 			&lt;div class="col-4">&lt;/div&gt;
