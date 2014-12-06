@@ -1,7 +1,7 @@
-Simple grid
+Respgrid
 =========
 
-Simple grid for responsive websites
+A simple grid for responsive websites
 
 <h1>Introduction</h1>
 <p>Respgrid is lightweight framework which helps you to build fully responsive websites.</p>
