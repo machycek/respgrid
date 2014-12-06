@@ -23,33 +23,33 @@ Simple grid for responsive websites
 
 <h4>Row class</h4>
 <pre>
-	&lt;div class="container">
-		&lt;div class="row">
-		&lt;/div&gt;
-	&lt;/div&gt;
+	<code>&lt;div class="container">
+			&lt;div class="row">
+			&lt;/div&gt;
+		&lt;/div&gt;</code>
 </pre>
 <h4>has attribute 100% with</h4>
 
 <h4>Col classes</h4>
 <pre>
-	&lt;div class="container">
-		&lt;div class="row">
-			&lt;div class="col-6">&lt;/div&gt;
-			&lt;div class="col-6">&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
+	<code>&lt;div class="container">
+			&lt;div class="row">
+				&lt;div class="col-6">&lt;/div&gt;
+				&lt;div class="col-6">&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;</code>
 </pre>
 <h4>Col-6 tell the browser to be 50% width of row</h4>
 <br>
 <h4>You can also use there classes like</h4>
 <pre>
-	"&lt;div class="container">
-		&lt;div class="row">
-			&lt;div class="col-4">&lt;/div&gt;
-			&lt;div class="col-4">&lt;/div&gt;
-			&lt;div class="col-4">&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;"
+	<code>&lt;div class="container">
+			&lt;div class="row">
+				&lt;div class="col-4">&lt;/div&gt;
+				&lt;div class="col-4">&lt;/div&gt;
+				&lt;div class="col-4">&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;</code>
 </pre>
 <h4>Col-4 tell the browser to be 1/3(33.3%) width of browser</h4>
 <h4>There are classes from col-1 to col-12</h4>
