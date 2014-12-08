@@ -138,12 +138,12 @@ A simple grid for responsive websites
 
 <h4>Sass center mixin</h4>
 <strong>Centers the element by entered conditions</strong>
-<p>@include center(x)</p>
 <strong>center the element horizontally</strong>
-<p>@include center(y)</p>
+<p>@include center(x)</p>
 <strong>center the element vertically</strong>
-<p>@include center(xy)</p>
+<p>@include center(y)</p>
 <strong>center the element horizontally and verticaly</strong>
+<p>@include center(xy)</p>
 
 
 
