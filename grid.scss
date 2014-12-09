@@ -98,11 +98,18 @@ $sm: 768px;
 	display: none;
 }
 
-.clearfix{
-	clear: both;
-	&:after, &:before{
-		clear: both;
-	}
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+ 
+.clearfix:after {
+  	clear: both;
+}
+ 
+.clearfix {
+  	zoom: 1; /* ie 6/7 */
 }
 
 // QUERIES
