@@ -165,11 +165,15 @@
   display: none; }
 
 /* line 101, ../sass/grid.scss */
+.clearfix:before,.clearfix:after {
+	content: "";
+	display: table; }
+/* line 103, ../sass/grid.scss */
+.clearfix:after {
+  	clear: both; }
 .clearfix {
-  clear: both; }
-  /* line 103, ../sass/grid.scss */
-  .clearfix:after, .clearfix:before {
-    clear: both; }
+  	zoom: 1; /* ie 6/7 */ }
+
 
 @media screen and (max-width: 1170px) {
   /* line 111, ../sass/grid.scss */
