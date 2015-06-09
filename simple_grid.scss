@@ -1,0 +1,109 @@
+@import "compass/css3";
+
+// ----- VARIABLES -----
+// grid
+$columns: 12;
+$column-width: 100%/$columns;
+
+// breakpoints
+$lg: 1170px;
+$md: 992px;
+$sm: 768px;
+
+
+// ----- BASIC GRID ATTRIBUTES -----
+*{
+	@include box-sizing(border-box);
+}
+
+.container{
+	margin: auto;
+	width: 1170px;
+}
+
+.row{
+	width: 100%;
+	clear: both;
+}
+
+*[class^="col-"], .container{
+	padding: 0 15px;
+}
+
+*[class^="col-"], .row{
+	position: relative;
+	float: left;
+}
+
+// ----- GRID -----
+
+@for $i from 1 through $columns {
+	.col-#{$i} {
+		width: $column-width*$i;
+	}
+}
+
+// ----- OFFSET -----
+@for $y from 1 through $columns{
+	.offset-#{$y} {
+		margin-left: $column-width*$y;
+	}
+}
+
+// UTILITIES
+// positions
+
+.clearfix {
+  	zoom: 1; /* ie 6/7 */
+
+  	&:after{
+  		clear: both;
+  	}
+
+  	&:before,
+  	&:after {
+  		content: "";
+  		display: table;
+  	}
+}
+
+// QUERIES
+// large
+@media screen and (max-width: $lg) {
+	.container{
+		width: 970px;
+	}
+}
+
+// medium
+@media screen and (max-width: $md) {
+	*[class^="col-"]{
+		width: 100%;
+	}
+	.container{
+		width: 750px;
+	}
+}
+
+// small
+@media screen and (max-width: $sm){
+	.container{
+		width: 100%;
+	}
+}
+
+// MIXINS
+// center
+@mixin center($xy: y){
+	@if $xy == y{
+		top: 50%;
+		@include transform(translateY(-50%));
+	} @else if $xy == x{
+		left: 50%;
+		@include transform(translateX(-50%));
+	} @else if $xy == xy{
+		left: 50%;
+		top: 50%;
+		@include transform(translate(-50%, -50%));
+	}
+}
