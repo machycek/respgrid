@@ -1,5 +1,3 @@
-@import "compass/css3";
-
 // ----- VARIABLES -----
 // grid
 $columns: 12;
@@ -13,7 +11,7 @@ $sm: 768px;
 
 // ----- BASIC GRID ATTRIBUTES -----
 *{
-	@include box-sizing(border-box);
+	box-sizing: border-box;
 }
 
 .container{
@@ -97,13 +95,13 @@ $sm: 768px;
 @mixin center($xy: y){
 	@if $xy == y{
 		top: 50%;
-		@include transform(translateY(-50%));
+		transform: translateY(-50%);
 	} @else if $xy == x{
 		left: 50%;
-		@include transform(translateX(-50%));
+		transform: translateX(-50%);
 	} @else if $xy == xy{
 		left: 50%;
 		top: 50%;
-		@include transform(translate(-50%, -50%));
+		transform: translate(-50%, -50%);
 	}
 }
